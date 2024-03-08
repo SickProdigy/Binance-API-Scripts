@@ -39,7 +39,7 @@ def binanceus_request_key(uri_path, data, api_key, api_sec):
 
 uri_path = "/api/v3/allOrders"
 
-out_path = "E:\\prodigy\\Scripts\\api-testing\\binance\\"
+out_path = "E:\\prodigy\\Scripts\\api-testing\\binance\\"  # windows needs double \\ escape the escape
 
 df_nest_symbols = pd.read_excel(out_path + "binance.xlsx", sheet_name="BinanceCoinListManual", usecols="N", header=0) # using header none is the way, 0 = first row header
 
