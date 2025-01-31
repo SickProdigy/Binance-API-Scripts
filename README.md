@@ -9,3 +9,5 @@ So I saw pandas had methods to write to excel sheets, so I tested around until I
 Most of these scripts will have that in mind. You can easily switch to cvs output or other scructures. Check pandas module documentation for more examples. Use the search function as the site isn't very intuitive.
 
 Hope this helps someone else. I'll update more as I keep testing along.
+
+Update
